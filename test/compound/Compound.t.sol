@@ -3,8 +3,8 @@ pragma solidity ^0.8.15;
 
 import "forge-std/Test.sol";
 import {console2} from "forge-std/console2.sol";
-import "../src/CompoundERC20.sol";
-import "../src/interfaces/Compound.sol";
+import "../../src/compound/CompoundERC20.sol";
+import "../../src/compound/interfaces/Compound.sol";
 
 contract CompoundTest is Test {
     address public DAI = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
